@@ -1,0 +1,97 @@
+[2025-08-25T03:35:32.878Z] info  code-server 4.103.1 fbaadbcfbc16401327e28bd5df3040261977a540
+[2025-08-25T03:35:32.885Z] info  Using user-data-dir /root/.local/share/code-server
+[2025-08-25T03:35:32.962Z] info  Using config file /home/ubuntu/.config/code-server/config.yaml
+[2025-08-25T03:35:32.963Z] info  HTTPS server listening on https://0.0.0.0/
+[2025-08-25T03:35:32.963Z] info    - Authentication is enabled
+[2025-08-25T03:35:32.964Z] info      - Using password from /home/ubuntu/.config/code-server/config.yaml
+[2025-08-25T03:35:32.964Z] info    - Using certificate for HTTPS: /home/ubuntu/.config/code-server/selfsigned.crt
+[2025-08-25T03:35:32.964Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[03:37:30] 
+
+
+
+
+[03:37:30] Extension host agent started.
+[03:37:31] Started initializing default profile extensions in extensions installation folder. file:///root/.local/share/code-server/extensions
+[03:37:31] Completed initializing default profile extensions in extensions installation folder. file:///root/.local/share/code-server/extensions
+File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[03:37:43] [<unknown>][6298c37b][ManagementConnection] New connection established.
+[03:37:47] [<unknown>][32e9e070][ExtensionHostConnection] New connection established.
+[03:37:47] [<unknown>][32e9e070][ExtensionHostConnection] <3798> Launched Extension Host Process.
+File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[03:39:40] [<unknown>][870fbd8d][ManagementConnection] New connection established.
+[03:39:42] [<unknown>][179420e9][ExtensionHostConnection] New connection established.
+[03:39:42] [<unknown>][179420e9][ExtensionHostConnection] <6633> Launched Extension Host Process.
+[03:39:45] RequestStore#acceptReply was called without receiving a matching request 25
+[03:39:45] RequestStore#acceptReply was called without receiving a matching request 26
+[03:39:45] RequestStore#acceptReply was called without receiving a matching request 27
+[03:39:45] RequestStore#acceptReply was called without receiving a matching request 28
+[03:39:45] RequestStore#acceptReply was called without receiving a matching request 29
+[03:39:45] RequestStore#acceptReply was called without receiving a matching request 30
+[03:39:45] RequestStore#acceptReply was called without receiving a matching request 31
+[03:39:45] RequestStore#acceptReply was called without receiving a matching request 32
+[03:39:45] RequestStore#acceptReply was called without receiving a matching request 33
+[03:39:45] RequestStore#acceptReply was called without receiving a matching request 34
+[03:39:45] RequestStore#acceptReply was called without receiving a matching request 35
+[03:39:45] RequestStore#acceptReply was called without receiving a matching request 36
+[03:42:32] [<unknown>][870fbd8d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:42:32] [<unknown>][179420e9][ExtensionHostConnection] <6633> Extension Host Process exited with code: 0, signal: null.
+[03:42:33] [<unknown>][6298c37b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:42:33] [<unknown>][32e9e070][ExtensionHostConnection] <3798> Extension Host Process exited with code: 0, signal: null.
+File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /var/app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[03:42:44] [<unknown>][27e759b2][ManagementConnection] New connection established.
+[03:42:47] [<unknown>][28da8976][ExtensionHostConnection] New connection established.
+[03:42:47] [<unknown>][28da8976][ExtensionHostConnection] <9850> Launched Extension Host Process.
+[03:45:12] Getting Manifest... ms-python.python
+[03:45:14] Installing extension: ms-python.python {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isApplicationScoped: false,
+  profileLocation: Or {
+    scheme: 'file',
+    authority: '',
+    path: '/root/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///root/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/root/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.103.1', date: '2025-08-15T20:35:14.074Z' }
+}
+[03:45:14] #2: https://open-vsx.org/vscode/gallery/vscode/ms-python/vscode-pylance/latest - error GET connect ECONNREFUSED 127.0.0.1:80
+[03:45:14] Error while getting the latest version for the extension ms-python.vscode-pylance. connect ECONNREFUSED 127.0.0.1:80
+[03:45:14] #3: https://open-vsx.org/vscode/gallery/vscode/ms-python/debugpy/latest - error GET connect ECONNREFUSED 127.0.0.1:80
+[03:45:14] Error while getting the latest version for the extension ms-python.debugpy. connect ECONNREFUSED 127.0.0.1:80
+[03:45:14] Getting Manifest... ms-python.debugpy
+[03:45:15] Installing extension: ms-python.debugpy {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  isApplicationScoped: false,
+  profileLocation: Or {
+    scheme: 'file',
+    authority: '',
+    path: '/root/.local/share/code-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///root/.local/share/code-server/extensions/extensions.json',
+    _fsPath: '/root/.local/share/code-server/extensions/extensions.json'
+  },
+  productVersion: { version: '1.103.1', date: '2025-08-15T20:35:14.074Z' },
+  installGivenVersion: false,
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[03:45:18] #8: https://open-vsx.org/vscode/gallery/vscode/ms-python/debugpy/latest - error GET connect ECONNREFUSED 127.0.0.1:80
+[03:45:18] Error while getting the latest version for the extension ms-python.debugpy. connect ECONNREFUSED 127.0.0.1:80
+[03:45:19] Getting Manifest... ms-python.debugpy
+[03:45:19] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.debugpy-2025.6.0-linux-x64: ms-python.debugpy
+[03:45:19] Renamed to /root/.local/share/code-server/extensions/ms-python.debugpy-2025.6.0-linux-x64
+[03:45:19] Extension is already requested to install ms-python.debugpy file:///root/.local/share/code-server/extensions/extensions.json
+[03:45:21] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.python-2025.4.0-universal: ms-python.python
+[03:45:22] Renamed to /root/.local/share/code-server/extensions/ms-python.python-2025.4.0-universal
+[03:45:22] Extension installed successfully: ms-python.debugpy file:///root/.local/share/code-server/extensions/extensions.json
+[03:45:22] Extension installed successfully: ms-python.python file:///root/.local/share/code-server/extensions/extensions.json
